@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,10 @@
     "mongodb": "3.6",
     "nodemon": "^2.0.22"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+  
 }
